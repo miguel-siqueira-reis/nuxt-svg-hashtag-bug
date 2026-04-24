@@ -1,5 +1,12 @@
 # Nuxt SVG Hashtag Bug
 
+⚠️ **STATUS: RESOLVED / UPSTREAM BUG**
+This issue has been identified as a bug in the Vue.js Core compiler.
+A fix has been proposed here: [vuejs/core#14756](https://github.com/vuejs/core/pull/14756)
+
+---
+
+## Overview:
 This repository reproduces a build error where the bundler confuses SVG fragment identifiers (`#`) with Nuxt Subpath Imports.
 
 ### Steps to reproduce:
